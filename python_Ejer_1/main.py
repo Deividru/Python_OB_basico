@@ -4,7 +4,7 @@
 # Press Double ⇧ to search everywhere for classes, files, tool windows, actions, and settings.
 
 if __name__ == '__main__':
-    print('PyCharm mi primer ejercicio en python')
+    print('PyCharm mi primer ejercicio en python guay')
 
     while 1:
         try:
