@@ -3,20 +3,14 @@
 # Press Double ⇧ to search everywhere for classes, files, tool windows, actions, and settings.
 
 if __name__ == '__main__':
-    print("Ejercicio 2")
-
-    #introducimos los valores
-
-    a = int(input(" Introduzca el primer digito:  "))
-    b = int(input(" Introduzca el Segundo digito:  "))
-
-    print(" a continuacion veremos los numers impares entre el :" +str(a) + " y el : " + str(b))
+    print("Ejercicio 3")
 
     lista=[]
-
-    for i in range(a,b+1):
-        if i % 2 != 0:
-            lista.append(i)
+    a=100
+    #  rango (desde el numero 100, hasta el 0, con un paso de -1 por cada iteración
+    # tambien se podria range (1,101) y despues darle la vuelta a la lista con lista.sort(reverse=True)
+    for i in range(a,0,-1):
+     lista.append(i)
 
     print(lista)
 
