@@ -3,7 +3,7 @@
 # Press Double ⇧ to search everywhere for classes, files, tool windows, actions, and settings.
 
 if __name__ == '__main__':
-    print("Ejercicio 3")
+    print("Ejercicio 3_")
 
     lista=[]
     a=100
