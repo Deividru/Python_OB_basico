@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c2938cae-f2af-445e-a864-8cdef4fbedde" name="Changes" comment="ejercicio 2 pycharm">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/python_Ejer_3/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/python_Ejer_3/main.py" afterDir="false" />
-    </list>
+    <list default="true" id="c2938cae-f2af-445e-a864-8cdef4fbedde" name="Changes" comment="ejercicio 3 pycharm" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -174,7 +171,21 @@
       <option name="project" value="LOCAL" />
       <updated>1654150271733</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="ejercicio 2 pycharm">
+      <created>1654156948144</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1654156948144</updated>
+    </task>
+    <task id="LOCAL-00006" summary="ejercicio 3 pycharm">
+      <created>1654156964671</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1654156964671</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -191,6 +202,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="ejercicio 1 pycharm" />
     <MESSAGE value="ejercicio 2 pycharm" />
-    <option name="LAST_COMMIT_MESSAGE" value="ejercicio 2 pycharm" />
+    <MESSAGE value="ejercicio 3 pycharm" />
+    <option name="LAST_COMMIT_MESSAGE" value="ejercicio 3 pycharm" />
   </component>
 </project>
