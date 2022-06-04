@@ -22,3 +22,5 @@ if __name__== '__main__':
     print("puertas : " + str(a.puertas))
     print("velocidad : " + str(a.velocidad))
     print("cilindrada : " + str(a.cilindrada))
+
+    print ("objeto" +str(a))
