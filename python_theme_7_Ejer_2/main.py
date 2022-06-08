@@ -1,8 +1,8 @@
 import time
 
 def main():
-   hora=19
-   min=00
+   hora=7
+   min=30
    #hora = int(input("introduzca la hora de salida: "))
    #min  = int(input("introduzca los minutos de la hora de salida: "))
 
@@ -24,7 +24,7 @@ def check(l,hora,min):
          if l.tm_min < min:
             print("Quedan ",abs(l.tm_hour - (hora)), "horas", (min - l.tm_min), "minutos","para la hora de salida")
          else:
-            print("Quedan ", abs(l.tm_hour - (hora -1)), "horas", abs(60 + min - l.tm_min), "minutos","para la hora de salida")
+            print("Quedan ", abs(l.tm_hour - (hora -1)), "horas", abs(60 + min - l.tm_min), "minutos","para que llegue alejandro")
    else:
 
       if l.tm_hour > hora or (l.tm_hour== hora and l.tm_min > min):
