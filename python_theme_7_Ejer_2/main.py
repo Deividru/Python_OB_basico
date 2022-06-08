@@ -1,8 +1,8 @@
 import time
 
 def main():
-   hora=4
-   min=23
+   hora=19
+   min=00
    #hora = int(input("introduzca la hora de salida: "))
    #min  = int(input("introduzca los minutos de la hora de salida: "))
 
