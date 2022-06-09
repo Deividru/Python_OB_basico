@@ -1,22 +1,28 @@
+import pickle
+
+from Vehiculo import *
+
+if __name__=="__main__":
+
+    #creamos un objeto de la clase vehiculo
+    #al cual instanciamos con un nombre y lo modificamos despues.
+    c1 = Vehiculo("ferrari",10045,190)
+    print(c1.nombre)
+    print("contiene ", c1.caballos)
+    c1.nombre = "seat"
+
+    # creamos un nuevo documento para almacenar el objeto usamos wb para poder escribir .
+    doc = open("datos.bin", "wb")
+    pickle.dump(c1, doc)
 
 
-def main():
-    f= open("newdoc.txt","w")
+    # creamos un nuevo documento para almacenar el objeto usamos rb para poder leer .
+    doc = open("datos.bin", "rb")
+    # guardamos el contenido del objeto en la variable f
+    f = pickle.load(doc)
 
-    f.write("mi primera linea en Txt\n")
-    f.write("mi segunda linea\n")
+    doc.close()
 
-    print("documenTo creado y linea insertada\n")
-
-    f= open("newdoc.txt", "r")
-
-    datos = f.read()
-
-    print (datos)
-
-    f.close()
-
-if __name__ == "__main__":
-    main()
+    print("nuestro coche mantiene su nombre despues del cambio ", f.nombre)
 
 
